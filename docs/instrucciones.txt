@@ -1,0 +1,16 @@
+INSTRUCCIONES DE INSTALACIÓN:
+
+1. Clona el repositorio o descomprime el ZIP.
+2. BACKEND:
+   - Ve a backend-laravel
+   - Ejecuta: composer install
+   - Copia .env.example a .env y configura la base de datos
+   - Ejecuta: php artisan migrate --seed
+   - Ejecuta: php artisan serve
+
+3. FRONTEND:
+   - Ve a frontend-react
+   - Ejecuta: npm install
+   - Ejecuta: npm run dev
+
+Listo, abre el navegador en http://localhost:5173
